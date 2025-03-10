@@ -7,9 +7,9 @@ resource "aws_elastic_beanstalk_application" "reg_app" {
   description = "Elastic Beanstalk application for reg-app"
 }
 
-/*resource "aws_iam_instance_profile" "reg_app_instance_profile" {
+resource "aws_iam_instance_profile" "reg_app_instance_profile" {
   name = "eks-project"
-} */
+}
 
 
 resource "aws_elastic_beanstalk_application_version" "app_version" {
